@@ -120,7 +120,6 @@ function handleSaveClick(){
 
 //  지우기 버튼을 누르면 현재 배경색을 펜 색깔로 설정해줌
 function handleEraseClick(){
-    console.log(ctx);
     ctx.strokeStyle = beforeColor;
 }
 
@@ -155,7 +154,7 @@ if(saveBtn){
     saveBtn.addEventListener("click",handleSaveClick);
 }
 if(eraseBtn){
-    eraseBtn.addEventListener('click',handleEraseClick);
     eraseBtn.addEventListener('click',handleRangeChange);
+    eraseBtn.addEventListener('click',handleEraseClick);
 }
 
