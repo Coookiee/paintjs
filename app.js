@@ -9,7 +9,7 @@ const eraseBtn = document.getElementById('jsErase');
 
 //////////////////  고정 전역 변수들     ////////////////
 const INITIAL_COLOR = '#2c2c2c';
-const CANVAS_SIZE = 600;
+const CANVAS_SIZE = 500;
 const INITIAL_LINE_WITH = 2.5;
 
 canvas.width = CANVAS_SIZE;
